@@ -92,7 +92,6 @@ App-Reviews-Sentiment-Analysis/
    ```bash
    git clone https://github.com/NishatTasnim01/App-Reviews-Sentiment-Analysis.git
    cd App-Reviews-Sentiment-Analysis
-````
 
 2. Install dependencies:
 
@@ -141,4 +140,3 @@ This project is open-sourced under the MIT License.
 
 If you found this useful, consider ⭐ starring the repository and contributing with pull requests or feedback!
 
-```
