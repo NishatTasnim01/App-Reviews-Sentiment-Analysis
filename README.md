@@ -2,8 +2,6 @@
 
 This project performs sentiment analysis on user reviews of a popular Android application from the Google Play Store, specifically focusing on **Canva** app reviews. By leveraging NLP and ML techniques, we classify user sentiments as **Positive** or **Negative** based on their textual feedback.
 
----
-
 ## 📌 Project Summary
 
 - **Dataset**: 1500 user reviews extracted from the Canva app on the Google Play Store.
@@ -15,8 +13,6 @@ This project performs sentiment analysis on user reviews of a popular Android ap
   - Logistic Regression classifier.
   - Accuracy comparison between feature extraction methods.
 
----
-
 ## 🧰 Technologies Used
 
 - **Language**: Python 3
@@ -25,8 +21,6 @@ This project performs sentiment analysis on user reviews of a popular Android ap
   - `nltk` (tokenization, stopword removal, stemming)
   - `scikit-learn` (LogisticRegression, CountVectorizer, train_test_split)
   - `pickle` for model serialization
-
----
 
 ## 📂 Directory Structure
 
@@ -45,8 +39,6 @@ App-Reviews-Sentiment-Analysis/
 └── README.md
 
 ````
-
----
 
 ## 🔍 Project Workflow
 
@@ -76,15 +68,11 @@ App-Reviews-Sentiment-Analysis/
 | Count BoW        | 95.66%         | 88.33%        |
 | N-Gram (1–3)     | ~97%+ (approx) | ~89%+         |
 
----
-
 ## 📊 Key Results
 
 - Logistic Regression with Binary Bag-of-Words provided the best generalization with ~89% test accuracy.
 - Adding n-grams increased vocabulary size and marginally improved performance.
 - Stemmed vocabulary and filtered stopwords improved classifier performance and reduced noise.
-
----
 
 ## 🧪 Run the Project
 
@@ -105,8 +93,6 @@ App-Reviews-Sentiment-Analysis/
    jupyter notebook App_Reviews_Sentiment_Analysis.ipynb
    ```
 
----
-
 ## 💾 Model Saving & Deployment
 
 * Trained vectorizers and models are serialized using `pickle`.
@@ -123,13 +109,10 @@ with open("Output/count_vect_lr.pkl", "rb") as f:
 X_new = vect.transform(["This app is fantastic and easy to use"])
 pred = model.predict(X_new)
 ```
----
 
 ## 📝 License
 
 This project is open-sourced under the MIT License.
-
----
 
 ## 👩‍💻 Developed By
 
