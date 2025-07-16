@@ -1,1 +1,1 @@
-# Canva-Sentiment-Analysis-Project
+# Google PlayStore App Reviews Sentiment Analysis
