@@ -114,12 +114,10 @@ pred = model.predict(X_new)
 
 This project is open-sourced under the MIT License.
 
-## 👩‍💻 Developed By
+## 👥 Maintainer
 
-**Nishat Tasnim**
-[GitHub Profile](https://github.com/NishatTasnim01)
-
----
+This project is maintained by [Nishat Tasnim](https://github.com/NishatTasnim01).  
+Feel free to reach out for questions, suggestions, or collaborations.
 
 ## ⭐ Show Your Support
 
