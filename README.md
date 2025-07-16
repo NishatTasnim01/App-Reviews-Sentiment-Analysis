@@ -105,6 +105,8 @@ App-Reviews-Sentiment-Analysis/
    jupyter notebook App_Reviews_Sentiment_Analysis.ipynb
    ```
 
+---
+
 ## 💾 Model Saving & Deployment
 
 * Trained vectorizers and models are serialized using `pickle`.
@@ -129,7 +131,7 @@ This project is open-sourced under the MIT License.
 
 ---
 
-## 🙋‍♀️ Author
+## 👩‍💻 Developed By
 
 **Nishat Tasnim**
 [GitHub Profile](https://github.com/NishatTasnim01)
